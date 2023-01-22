@@ -5,136 +5,133 @@
     <title>Form spedizione</title>
 </head>
 <body>
-<table>
+<div>
 
     <form id="delivery" autocomplete="on">
 
-        <tr>
-            <td>
+        <div>
+            <div style="display: inline">
                 <label for="name"> Nome*</label>
-            </td>
-            <td>
+            </div>
+            <div style="display: inline">
                 <input id="name" type="text" name="name" placeholder="nome" required>
-            </td>
-        </tr>
+            </div>
+        </div>
 
 
-        <tr>
-            <td>
+        <div>
+            <div style="display: inline">
                 <label for="lastname"> Cognome*</label>
-            </td>
-            <td>
+            </div>
+            <div style="display: inline">
                 <input id="lastname" type="text" name="lastname" placeholder="Cognome" required>
-            </td>
-        </tr>
+            </div>
+        </div>
 
-        <tr>
-            <td>
+        <div>
+            <div style="display: inline">
                 <label for="adress">Indirizzo*</label>
-            </td>
-            <td>
+            </div>
+            <div style="display: inline">
                 <input id="adress" type="text" name="adress" placeholder="via pippo franco" required>
-            </td>
-        </tr>
+            </div>
+        </div>
 
-        <tr>
-            <td>
+        <div>
+            <div style="display: inline">
                 <label for="po">Civico</label>
-            </td>
-            <td>
+            </div>
+            <div style="display: inline">
                 <input id="po" type="number" name="po">
-            </td>
-        </tr>
+            </div>
+        </div>
 
-        <tr>
-            <td>
+        <div>
+            <div style="display: inline">
                 <label for="cap"> Cap* </label>
-            </td>
-            <td>
+            </div>
+            <div style="display: inline">
                 <input type="number" name="cap" id="cap" placeholder="0000" REQUIRED>
-            </td>
-        </tr>
+            </div>
+        </div>
 
 
-        <tr>
-            <td>
+        <div>
+            <div style="display: inline">
                 <label for="province">Provincia*</label>
-            </td>
-            <td>
+            </div>
+            <div style="display: inline">
                 <select name="province" id="province" required>
                     <option value="MI">MILANO</option>
                     <option value="RO">ROMA</option>
                     <option value="TO">TORINO</option>
                     <option value="OTHER" selected name="ALTRO"></option>
                 </select>
-            </td>
-        </tr>
+            </div>
+        </div>
 
-        <tr>
-            <td>
+        <div>
+            <div style="display: inline">
                 <label for="city ">Città* </label>
-            </td>
-            <td>
+            </div>
+            <div style="display: inline">
                 <input type="text" name="city" placeholder="MILANO" id="city " required>
-            </td>
-        </tr>
+            </div>
+        </div>
 
-        <tr>
-            <td>
+        <div>
+            <div style="display: inline">
                 <label for="country">Nazione*</label>
-            </td>
-            <td>
+            </div>
+            <div style="display: inline">
                 <input type="text" name="country" id="country" placeholder="ITALIA" required>
-            </td>
+            </div>
 
 
-        </tr>
+        </div>
 
 
-        <tr>
-            <td>
+        <div>
+            <div style="display: inline">
                 <label for="phone">Telefono</label>
-            </td>
-            <td>
+            </div>
+            <div style="display: inline">
                 <input type="tel" name="phone" id="phone" placeholder="333 3300000">
-            </td>
+            </div>
 
 
-        </tr>
+        </div>
 
-        <tr>
-            <td>
+        <div>
+            <div style="display: inline">
                 <label for="email">Email*</label>
-            </td>
-            <td>
+            </div>
+            <div style="display: inline">
                 <input type="email" name="email" id="email" placeholder="tua@gmail.com" required>
-            </td>
+            </div>
 
 
-        </tr>
+        </div>
 
-        <tr>
-            <td>
+        <div>
+            <div style="display: inline">
                 <label for="note">Note</label>
-            </td>
-            <td>
+            </div>
+            <div style="display: inline">
                 <textarea name="note" id="note" cols="30" rows="10" placeholder="Note"></textarea>
-            </td>
+            </div>
 
 
-        </tr>
-
-        <tr>
-            <td colspan="1>"></td>
-            <td>
+            <div style="display: inline">
                 <input type="submit" value="Invia">
-            </td>
+            </div>
 
-        </tr>
+        </div>
 
 
     </form>
-</table>
+</div>
+
 <button type="reset" form="delivery"> Reset</button>
 
 </body>
